@@ -3,10 +3,7 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         SCOS_Sign {
-            keyAlias 'android.keystore'
-            keyPassword 'sr19940801'
-            storeFile file('C:/Users/27379/android.keystore')
-            storePassword 'sr19940801'
+
         }
     }
     compileSdkVersion 28
